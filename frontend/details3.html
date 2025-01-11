@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore books</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/library.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bookish</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Profile Section -->
+        <div class="d-flex align-items-center gap-3">
+          <a href="settings.html">
+            <img
+              src="assets/images/logo.jpg"
+              alt="Profile"
+              class="rounded-circle"
+              width="60"
+              height="60"
+            />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="library.html"
+                >library</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="status.html">Status</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Search Bar -->
+        <form class="d-flex me-3" role="search">
+          <input
+            class="form-control me-2 search-bar"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+
+        <!-- Profile Section -->
+        <div class="d-flex align-items-center gap-3">
+          <a href="settings.html">
+            <img
+              src="assets/images/profile.jpg"
+              alt="Profile"
+              class="rounded-circle"
+              width="60"
+              height="60"
+            />
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5" style="max-width: 1200px; padding: 20px">
+      <h3 class="section-title">Book Details</h3>
+      <div class="row mt-6">
+        <div class="col-md-12">
+          <div class="card" style="padding: 20px">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="details.html">
+                    <img
+                      src="assets/images/trending-book3.jpg"
+                      class="card-img-top"
+                      alt="Book 1"
+                      style="width: 100%; height: auto"
+                    />
+                  </a>
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title">The Willoughbys</h5>
+                  <p class="card-text">By Lois Lowry</p>
+                  <p class="card-text">
+                    The Willoughbys by Lois Lowry is a quirky and darkly
+                    humorous tale about a family of four siblings—Tim, Jane,
+                    Barnaby A, and Barnaby B—who are neglected by their
+                    eccentric and neglectful parents. The Willoughby children,
+                    tired of their parents' disinterest, decide to abandon them
+                    and create their own version of a "perfect" family. As they
+                    navigate their adventures, they encounter a series of
+                    unusual characters, including a nanny, a baby, and even a
+                    wealthy couple, all while discovering what family really
+                    means. Written in a whimsical and satirical style, the book
+                    cleverly pokes fun at the traditional family structure while
+                    exploring themes of love, belonging, and the importance of
+                    kindness. Through its witty narrative and entertaining
+                    characters, The Willoughbys captures the resilience of
+                    children and the transformative power of family.
+                  </p>
+                  <!-- Dropdown for Options -->
+                  <div class="dropdown mt-3">
+                    <button
+                      class="btn btn-secondary dropdown-toggle"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Options
+                    </button>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <li><a class="dropdown-item" href="#">Read</a></li>
+                      <li><a class="dropdown-item" href="#">To Be Read</a></li>
+                      <li><a class="dropdown-item" href="#">Reading</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
