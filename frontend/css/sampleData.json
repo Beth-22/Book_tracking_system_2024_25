@@ -1,0 +1,56 @@
+[
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "image": "assets/images/trending-book1.jpg",
+    "status": 2
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "image": "assets/images/trending-book2.jpg",
+    "status": 2
+  },
+  {
+    "title": "The Willoughbys",
+    "author": "Lois Lowry",
+    "image": "https://drive.google.com/file/d/1DRLrEV1o47PCce8M8txjLBdk9TcKYLhG/view?usp=sharing",
+    "status": 2
+  },
+  {
+    "title": "Daisy Jones and the SIX",
+    "author": "Taylor Jenkins Reid",
+    "image": "assets/images/trending-book4.jpg",
+    "status": 2
+  },
+  {
+    "title": "Hyunam-dong Bookshop",
+    "author": "Hwang Bo-reum",
+    "image": "assets/images/trending-book5.jpg",
+    "status": 2
+  },
+  {
+    "title": "House of Glass",
+    "author": "Sarah Pekkanen",
+    "image": "assets/images/trending-book6.jpg",
+    "status": 2
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "image": "assets/images/trending-book7.jpg",
+    "status": 2
+  },
+  {
+    "title": "The Elements of Curie",
+    "author": "Dava Sobel",
+    "image": "assets/images/trending-book8.jpg",
+    "status": 2
+  },
+  {
+    "title": "Stories of Dostoevsky",
+    "author": "Fyodor Dostoevsky",
+    "image": "assets/images/trending-book9.jpg",
+    "status": 2
+  }
+]
