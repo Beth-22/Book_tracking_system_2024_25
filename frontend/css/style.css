@@ -136,7 +136,18 @@ body {
   max-height: 300px;
   overflow-y: auto;
 }
-
+#logoutButton{
+  background-color:#0B5ED7 !important;
+  border-radius:0.4rem;
+  margin-top:1rem;
+  margin-left:1rem;
+  color:white;
+  border:none;
+  padding:0.4rem 0.5rem;
+}
+#logoutButton:hover{
+  background: #578cd5 !important; 
+}
 .footer {
   background-color: #3b8686;
   color: white;
